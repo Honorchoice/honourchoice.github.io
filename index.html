@@ -675,11 +675,11 @@
                     />
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="name">Contact</label>
+                    <label for="name">Phone number</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="contact"
+                      id="number"
                       required
                     />
                   </div>
@@ -751,7 +751,7 @@
       function Mail() {
         let name = document.getElementById("name").value;
         let email = document.getElementById("email").value;
-        let contact = document.getElementById("contact").value;
+        let number = document.getElementById("number").value;
         let subject = document.getElementById("subject").value;
         let message = document.getElementById("message").value;
 
@@ -760,8 +760,8 @@
           name +
           "</br> email:" +
           email +
-          "</br> contact:" +
-          contact +
+          "</br> number :" +
+          number +
           "</br> subject:" +
           subject +
           "</br> message:" +
